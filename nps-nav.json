@@ -8,6 +8,29 @@
       "columnClass": ""
     },
     {
+      "uid": "demos-id",
+      "label": "Demos",
+      "path": "/Demos",
+      "hasChild": "true",
+      "multiColumn": "false",
+      "hasHeaders": "false",
+      "columnClass": "fsa-nav-global__link--has-sub-menu",
+      "children": [
+        {
+          "uid": "help-page-level-id",
+          "label": "Help - Page Level",
+          "path": "/demos/help/page-level",
+          "hasChild": "false"
+        },
+        {
+          "uid": "help-inline-id",
+          "label": "Help - Inline",
+          "path": "/demos/help/inline",
+          "hasChild": "false"
+        }
+      ]
+    },
+    {
       "uid": "payments-id",
       "label": "Payments",
       "path": "/payments",
@@ -20,6 +43,7 @@
       "path": "/cancel-payables",
       "hasChild": "true",
       "multiColumn": "true",
+      "columnClass": "fsa-nav-global__list-item--multi-column",
       "hasHeaders": "false",
       "children": [
         {
@@ -108,7 +132,8 @@
       "label": "Cancelling Funds",
       "path": "/cancelling-funds",
       "hasChild": "true",
-      "multiColumn": "false",
+      "multiColumn": "true",
+      "columnClass": "fsa-nav-global__list-item--multi-column",
       "hasHeaders": "false",
       "children": [
         {
@@ -131,7 +156,8 @@
       "label": "Disbursement Replacement",
       "path": "/disbursement-replacement",
       "hasChild": "true",
-      "multiColumn": "false",
+      "multiColumn": "true",
+      "columnClass": "fsa-nav-global__list-item--multi-column",
       "hasHeaders": "false",
       "children": [
         {
@@ -154,7 +180,8 @@
       "label": "Reports",
       "path": "/reports",
       "hasChild": "true",
-      "multiColumn": "false",
+      "multiColumn": "true",
+      "columnClass": "fsa-nav-global__list-item--multi-column",
       "hasHeaders": "false",
       "children": [
         {
@@ -168,28 +195,6 @@
           "uid": "performance-management-id",
           "label": "Performance Management",
           "path": "/reports/performance-management",
-          "hasChild": "false"
-        }
-      ]
-    },
-    {
-      "uid": "demos-id",
-      "label": "Demos",
-      "path": "/Demos",
-      "hasChild": "true",
-      "multiColumn": "false",
-      "hasHeaders": "false",
-      "children": [
-        {
-          "uid": "help-page-level-id",
-          "label": "Help - Page Level",
-          "path": "/demos/help/page-level",
-          "hasChild": "false"
-        },
-        {
-          "uid": "help-inline-id",
-          "label": "Help - Inline",
-          "path": "/demos/help/inline",
           "hasChild": "false"
         }
       ]
