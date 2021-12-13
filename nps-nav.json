@@ -19,7 +19,7 @@
       "label": "Cancel Payables",
       "path": "/cancel-payables",
       "hasChild": "true",
-      "columnClass": "fsa-nav-global__list-item--multi-column",
+      "multiColumn": "true",
       "hasHeaders": "false",
       "children": [
         {
@@ -108,7 +108,7 @@
       "label": "Cancelling Funds",
       "path": "/cancelling-funds",
       "hasChild": "true",
-      "columnClass": "fsa-nav-global__list-item--multi-column",
+      "multiColumn": "false",
       "hasHeaders": "false",
       "children": [
         {
@@ -131,7 +131,7 @@
       "label": "Disbursement Replacement",
       "path": "/disbursement-replacement",
       "hasChild": "true",
-      "columnClass": "fsa-nav-global__list-item--multi-column",
+      "multiColumn": "false",
       "hasHeaders": "false",
       "children": [
         {
@@ -151,10 +151,10 @@
     },
     {
       "uid": "reports-id",
-      "label": "reports",
+      "label": "Reports",
       "path": "/reports",
       "hasChild": "true",
-      "columnClass": "fsa-nav-global__list-item--multi-column",
+      "multiColumn": "false",
       "hasHeaders": "false",
       "children": [
         {
@@ -168,6 +168,28 @@
           "uid": "performance-management-id",
           "label": "Performance Management",
           "path": "/reports/performance-management",
+          "hasChild": "false"
+        }
+      ]
+    },
+    {
+      "uid": "demos-id",
+      "label": "Demos",
+      "path": "/Demos",
+      "hasChild": "true",
+      "multiColumn": "false",
+      "hasHeaders": "false",
+      "children": [
+        {
+          "uid": "help-page-level-id",
+          "label": "Help - Page Level",
+          "path": "/demos/help/page-level",
+          "hasChild": "false"
+        },
+        {
+          "uid": "help-inline-id",
+          "label": "Help - Inline",
+          "path": "/demos/help/inline",
           "hasChild": "false"
         }
       ]
